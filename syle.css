@@ -1,0 +1,158 @@
+.shopping-bag-total {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: 500;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.product-container {
+    margin: 40px 100px;
+    background: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.row {
+    margin: 0;
+    padding: 15px 0;
+    border-top: solid lightgrey;
+    border-top-width: thin;
+}
+
+.delete-like {
+    text-align: center;
+}
+
+.image-produit {
+    width: 287px;
+    height: 390px;
+    margin-left: 520px;
+}
+
+.product-name {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.jumia {
+    width: 150px;
+}
+
+.navig {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+}
+
+.navigation a {
+    text-decoration: none;
+    margin: 50px;
+    font-size: 20px;
+}
+
+
+/* Dropdown Button */
+
+.div1 {
+    margin-top: 25px;
+    display: flex;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-delete,
+.btn-like,
+.btn-plus,
+.btn-moins {
+    border: none;
+    background: none;
+    outline: 0;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+.btn-delete:focus,
+.btn-like:focus,
+.btn-plus:focus,
+.btn-moins:focus {
+    outline: 0;
+}
+
+.product-qnt {
+    text-align: center;
+}
+
+.product-price {
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.like {
+    fill: black;
+    height: 25px;
+    width: 25px;
+}
+
+.col {
+    border-style: 1px outset gray;
+}
+
+.fa-heart {
+    color: gray;
+}
